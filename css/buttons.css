@@ -1,0 +1,21 @@
+.buttons {
+    text-align: center;
+}
+
+.buttons__button {
+    background-color: #ddd;
+    color: #4169e1;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    padding: 15px 32px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.buttons__button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24);
+    color: black;
+    background-color: #eee;
+}

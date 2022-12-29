@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Witam wszystkich</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/sections.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/buttons.css" rel="stylesheet">
+    <link href="css/images.css" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="header" id="home">
+        <h1>Eryk Bednarek</h1>
+    </header>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__link"><a href="#o-mnie">O mnie</a></li>
+            <li class="navigation__link"><a href="#zainteresowania">Zainteresowania</a></li>
+            <li class="navigation__link"><a href="#ulubione-utwory">Ulubione utwory</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <div class="mainImage"><img class="mainImage__style" src="https://i.postimg.cc/tJyJzBDs/eryk.jpg"
+                    alt="Eryk Bednarek">
+            </div>
+            <p>
+            <div class="buttons">
+                <button class="buttons__button js-deleteImage"><span class="js-hiddenImage">Usuń</span>
+                    zdjęcie</button>
+                <button class="buttons__button js-changeTheme">Włącz<span class="js-theme"> ciemny</span>
+                    motyw</button>
+            </div>
+            </p>
+        </section>
+        <section class="section" id="o-mnie">
+            <h2 class="section__header">Kilka słów o mnie</h2>
+            <p class="section__paragraph">
+                Mam 21 lat i mieszkam w miejsowości Głowno w województwie łódzkim. Na codzień jestem
+                operatorem maszyn w firmie zajmującej się produkcją kabli światłowodowych, dodatkowo pełnię rolę
+                <strong><span class="section__jobRole">MasterMontera</span></strong> (szkolenie pracowników z obsługi
+                maszyn,
+                przedstawienie zasad BHP itp.) oraz jestem zastępcą <strong><span
+                        class="section__jobRole">TeamLeadera.</span></strong>
+            </p>
+        </section>
+        <section class="section" id="zainteresowania">
+            <h2 class="section__header">Zainteresowania</h2>
+            <p class="section__paragraph">
+                Moje hobby to głównie spędzanie czasu przy samochodzie <strong>(CarDetailing)</strong>. Lubię podróżować
+                i
+                odwiedzać nowe miejsca, a od niedawna dominujące stało się programowanie.
+            </p>
+        </section>
+        <table class="table" id="ulubione-utwory">
+            <caption class="table__caption">
+                <h3>Moje ulubione utwory muzyczne</h3>
+            </caption>
+            <tr>
+                <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
+                <th class="table__cell table__cell--header" scope="col">Tytuł</th>
+                <th class="table__cell table__cell--header" scope="col">Album</th>
+            </tr>
+            <tr class="table__row">
+                <th class="table__cell table__cell--header" rowspan="2">Imagine dragons</th>
+                <td class="table__cell" scope="row">Whatever it Takes</td>
+                <td class="table__cell" rowspan="2">Evolve</td>
+            </tr>
+            <tr class="table__row">
+                <td class="table__cell" scope="row">I Don't Know Why</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__cell table__cell--header" scope="row">Armin van Buuren</th>
+                <td class="table__cell" scope="row">Blah Blah Blah</td>
+                <td class="table__cell" scope="row">Trance</td>
+            </tr>
+            <tr class="table__row">
+                <th class="table__cell  table__cell--header" scope="row">Álvaro Soler</th>
+                <td class="table__cell" scope="row">Si Te Vas</td>
+                <td class="table__cell" scope="row">Magia</td>
+            </tr>
+        </table>
+    </main>
+
+    <div class="backUp">
+        <a class="backUp__link" href="#home">Przenieś na góre</a>
+    </div>
+
+    <footer class="footer">
+        <p>Copyright © 2022 - Eryk Bednarek</p>
+    </footer>
+
+</body>
+
+</html>

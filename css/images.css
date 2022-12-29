@@ -1,0 +1,16 @@
+.mainImage {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.mainImage__style {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+
+/* Hidden image when clicking "Delete Image" button. */
+.hidden {
+    display: none;
+}

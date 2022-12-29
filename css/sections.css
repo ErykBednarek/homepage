@@ -1,0 +1,20 @@
+.section {
+    padding: 10px;
+}
+
+.section__header {
+    text-align: center;
+    background-color: #adff2f;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.section__paragraph {
+    background-color: #ddd;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.section__jobRole {
+    color: #4169e1;
+}
